@@ -1,0 +1,7 @@
+{
+  "name": "Copy of Live Voice Agent",
+  "description": "Create a live agent that uses voice input and output with bidirectional streaming.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Live Voice Agent</title>
+  <link rel="stylesheet" href="index.css">
+  <script type="importmap">
+    {
+      "imports": {
+        "@google/genai": "https://esm.sh/@google/genai@^0.14.0"
+      }
+    }
+  </script>
+  <script type="module" src="index.tsx"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Live Voice Agent</h1>
+    <p id="status">Click the button to start the conversation.</p>
+    <button id="start-button">Start Conversation</button>
+    <div id="transcript-container" style="display: none;">
+      <!-- Transcripts will be appended here -->
+    </div>
+  </div>
+</body>
+</html>
